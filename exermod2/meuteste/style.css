@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'love';
+    src: url('fontes/love larry.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}    
+
+@font-face {
+    font-family: 'Medieval';
+    src: url('fontes/biergarten.ttf');
+    format('truetype');
+    font-weight:bolder;
+    font-style:normal;
+    font: size 3em;
+}
+
+@font-face {
+    font-family: 'Calina';
+    src: url('fontes/Calina.ttf'); format ('opemtype');
+    font-weight:bolder;
+    font-style:normal;
+    font: size 3em;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100; 1.200;1.300;1.400;1.500;1.600;1.700;1.800;1.900 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+body{
+
+    background-image: linear-gradient(to right, #394D73,#F2B807,#F2A30F,#F28B0C,#8C472E);
+    
+       /*obs:Seletor global, “para toda a pag”  */
+    
+    background-color: white; 
+    border-radius: 10px;    /*obs: arredondar a borda */
+    font-family: 'Calina';
+    font-size: 2em;
+    font-weight:300;
+    box-shadow: 5px 5px 15px rgba(136, 106,93,0.616);
+    /*obs: sombreamento externo da pag */
+    
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    
+    }
+    
+    
+    h1{
+    font-family: 'Medieval',Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 6em;
+    
+    }
+    h2{
+        /*
+       font-style: normal;
+       font-variant: small-caps;
+       font-weight: lighter;
+       font-size:1em;
+       font-family: Arial, Helvetica, sans-serif;
+        */
+        font: normal small-caps lighter 1em arial;
+    
+    }
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+          
+              
+          main:{
+                            color: red;
+            }
+            main > p {
+             display: none;
+               
+
+            }
+            main:hover > p {
+                display: block;
+                background-color: red;
+                color: white; 
+                margin: 10px 10px 10px 10px; 
+                padding: 1px 1px;
+                border: 10px 10px;  
+            }
+            
+
+            
+           
+            div{
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    bolder: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+ div:hover{
+    background-color: yellow;
+
+ }
+    </style>
+
+<body>
+    <h1>Exemplo de houver</h1>
+   
+    <p>Passe o mouse sobre o teste</p>
+    <main>Passe o mouse
+    <p>Texto escondido...</p>    
+
+    </main>
+    <p class="inicial"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sequi cum repellendus ipsum vel qui molestiae eligendi officiis quam numquam facere, nostrum, distinctio, similique enim labore necessitatibus blanditiis alias minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptate dicta mollitia reprehenderit deleniti? Consectetur architecto, laboriosam quod aliquam laudantium minus provident placeat quidem officia animi, maxime qui ducimus et?</p>
+
+    <div id="d1">01</div>  
+    <div id="d2">02</div>  
+    <div id="d3">03</div>  
+
+</html>
